@@ -19,3 +19,4 @@ We have taken real investment data from **crunchbase.com**, so the insights you 
 ### File Used:
 #### 1. Company details:
 **companies**: A table with basic data of companies
+![Companies Data Dictionary](/images/Companies.jpg)
