@@ -19,6 +19,8 @@ We have taken real investment data from **crunchbase.com**, so the insights you 
 ### File Used:
 #### 1. Company details:
 **companies**: A table with basic data of companies.
+![](./images/companies.png)
 
-![](./images/companies.png){:height="50%" width="50%"}
-
+#### 2. Funding round details:
+**rounds2**: The most important parameters are explained below:
+![](./images/rounds2.png)
