@@ -18,6 +18,7 @@ We have taken real investment data from **crunchbase.com**, so the insights you 
 
 ### File Used:
 #### 1. Company details:
-**companies**: A table with basic data of companies.<br\>
-![Companies Data Dictionary](./images/companies.png){:height="50%" width="50%"}
+**companies**: A table with basic data of companies.
+
+![](./images/companies.png){:height="50%" width="50%"}
 
