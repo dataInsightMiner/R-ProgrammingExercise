@@ -17,18 +17,26 @@ Spark Funds wants to invest where most **other investors are investing**. This p
 We have taken real investment data from **crunchbase.com**, so the insights you get may be incredibly useful.
 
 ### File Used:
-#### 1. Company details:[companies.txt]
+#### a. Company details:[companies.txt]
 **companies**: A table with basic data of companies.
 ![](./images/companies.png)
 
-#### 2. Funding round details:[rounds2.csv]
+#### b. Funding round details:[rounds2.csv]
 **rounds2**: The most important parameters are explained below:
 ![](./images/rounds2.png)
 
-#### 3. Sector Classification:[mapping.csv]
+#### c. Sector Classification:[mapping.csv]
 This file maps the numerous **category names** in the companies table (such 3D printing, aerospace, agriculture, etc.) to eight broad **sector names**. The purpose is to simplify the analysis into eight sector buckets, rather than trying to analyse hundreds of them.
 
-#### 4. How do you approach the case study? What are the deliverables?
+## 3. What is Spark Funds’ business objective?
+The business objectives and goals of data analysis are pretty straightforward.
+1. **Business objective**:<br />The objective is to identify the best sectors, countries, and a suitable investment type for making investments. The overall strategy is to invest where others are investing, implying that the best sectors and countries are the ones where most investments are happening.
+2. **Goals of data analysis**:<br />Your goals are divided into three sub-goals:
+* **Investment type analysis**: Understanding investments in venture, seed/angel, private equity categories, etc. so Spark Funds can decide which type is best suited for its strategy.
+* **Country analysis**: Understanding which countries have had the most investments in the past. These will be Spark Funds’ favourites as well.
+* **Sector analysis**: Understanding the distribution of investments across the eight main sectors. (Note that we are interested in the eight main sectors provided in the *mapping file*. The two files — *companies and rounds2* — have numerous sub-sector names; hence, you will need to map each sub-sector to its main sector.)
+
+## 4. How do you approach the case study? What are the deliverables?
 The entire case study is divided into checkpoints to help you navigate. For each checkpoint, you are advised to fill in the tables into the spreadsheet attached in the download segment. The tables are also mentioned under the **'Results Expected'** section after each checkpoint. Since this is the first case study, you have been provided with some additional guidance. Going forward you will be expected to structure and solve the problem by yourself, just like you would be solving problems in real life scenarios.
 
 **Important Note:**<br /> All your code has to be submitted in one main R file. For every checkpoint, keep writing code in one well-commented R file which you can submit at the end.
