@@ -17,10 +17,14 @@ Spark Funds wants to invest where most **other investors are investing**. This p
 We have taken real investment data from **crunchbase.com**, so the insights you get may be incredibly useful.
 
 ### File Used:
-#### 1. Company details:
+#### 1. Company details:[companies.txt]
 **companies**: A table with basic data of companies.
 ![](./images/companies.png)
 
-#### 2. Funding round details:
+#### 2. Funding round details:[rounds2.csv]
 **rounds2**: The most important parameters are explained below:
 ![](./images/rounds2.png)
+
+#### 3. Sector Classification:[mapping.csv]
+This file maps the numerous **category names** in the companies table (such 3D printing, aerospace, agriculture, etc.) to eight broad **sector names**. The purpose is to simplify the analysis into eight sector buckets, rather than trying to analyse hundreds of them.
+
